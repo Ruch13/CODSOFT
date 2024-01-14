@@ -16,11 +16,11 @@ int main() {
 
         if (userGuess == randomNumber) {
             guessed = true;
-            std::cout << "Congratulations! You guessed the correct number!" << std::endl;
+            std::cout << "Yayy.. You guessed the correct number!" << std::endl;
         } else if (userGuess > randomNumber) {
-            std::cout << "Your guess is too high! Try again." << std::endl;
+            std::cout << "Your guess is too high...Try again." << std::endl;
         } else {
-            std::cout << "Your guess is too low! Try again." << std::endl;
+            std::cout << "Your guess is too low...Try again." << std::endl;
         }
     }
 
